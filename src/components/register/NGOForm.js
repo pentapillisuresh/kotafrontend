@@ -76,7 +76,7 @@ const NGOForm = () => {
     }
 
     try {
-      const res = await axios.post("https://kotabackend-1.onrender.com/api/ngo/register", data, {
+      const res = await axios.post("https://kotamangementbackend.onrender.com/api/ngo/register", data, {
         headers: { "Content-Type": "multipart/form-data" },
         // withCredentials: true
       });
